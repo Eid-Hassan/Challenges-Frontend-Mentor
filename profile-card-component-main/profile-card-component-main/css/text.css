@@ -69,7 +69,7 @@ hr{color: hsl(229, 23%, 23%);}
     text-align: center;
     justify-content: center;
     align-items: center;
-    
+    margin-top: -1px;
     border-radius: 0 0 10px 10px;
 }
 .bottom .conter{padding: 20px 30px;margin-top: -1px;}
