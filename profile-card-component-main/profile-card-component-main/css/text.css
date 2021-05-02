@@ -1,0 +1,88 @@
+/* Start Global Ruls */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{font-family: 'Kumbh Sans', sans-serif; background-color: hsl(185, 75%, 39%);}
+/************************** End Global Ruls ****************/
+
+
+
+
+
+
+
+/******************************* Start challenge *****************************/
+.border{
+    width: 450px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 0 40px;
+}
+.cont-top{
+    height: 175px;
+    background-color: hsl(185deg 82% 59%);
+    border-radius: 10px 10px 0 0px;
+    position: relative;
+}
+.cont-top img{
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 123px 145px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-180%, -83%);
+}
+.cot-bottom{
+    background-color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.cot-bottom h1{
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    margin-bottom: 10px;
+}
+.cot-bottom span{
+    font-weight: 500;
+    color: hsl(227, 10%, 46%);
+}
+.cot-bottom p{
+    color: hsl(227, 10%, 46%);
+    padding-bottom: 35px;
+}
+
+hr{color: hsl(229, 23%, 23%);}
+
+.bottom{
+    display: flex;
+    background-color: white;;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 0 0 10px 10px;
+}
+.bottom .conter{padding: 20px 30px;margin-top: -1px;}
+
+.bottom .conter h1{
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+.bottom .conter p{
+    font-size: 13px;
+    font-weight: 100;
+    color: hsl(227, 10%, 46%);
+    padding: 10px 0;
+    letter-spacing: 1.5px;
+}
+/******************************* End Challeng ********************************/
